@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f38db946ee.js" crossorigin="anonymous"></script>
+    <title>Encriptador de Texto</title>
+</head>
+<body class="contenido">
+    <header class="titulo">
+        <h1>Alura Challenge: Sprint 01</h1>
+    </header>
+    <Header class="subtitulo">
+        <h2>< Encriptador de Texto /></h2>
+    </Header>
+    <main class="main">
+        <section class="principal">
+            <textarea class="texto" placeholder="Solo letras minúsculas y sin acentos" cols="50" rows="10"></textarea>
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncriptar();">Encriptar</button>
+                <br><br><br><br>
+                <button class="desencriptar" onclick="botonDesencriptar();">Desencriptar</button>
+                <br><br><br><br>
+                <button class="copiar" onclick="copiar();">Copiar Mensaje</button>
+            </div>
+            <textarea id="mensaje" cols="50" rows="10"></textarea>
+    </main>
+    <footer class="pieDePagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <a href="#"><img src="/img/llave.png" alt="llave"></a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre el Proyecto</h2>
+                <p>En este sitio podrás convertir una cadena de texto en un mensaje encriptado y luego decodificarlo.
+                </p>
+            </div>
+            <div class="box">
+                <h2>Contacto</h2>
+                <div class="redes">
+                    <a class="fa-brands fa-github" href="https://github.com/aghilderman" target="_blank"> GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small><em>Este sitio fue creado por ag.hiderman</em></small>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,194 @@
+.contenido{
+    background: linear-gradient(45deg, rgb(8, 8, 116), rgb(131, 204, 228));
+    font-family: 'Gelasio', serif;
+}
+
+.titulo{
+    background-color: rgb(8, 8, 116);
+    color: #fcf8ec;;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.subtitulo{
+    border-top: solid 10px;
+    border-bottom: solid 5px;
+    border-color: rgb(8, 8, 116);
+}
+
+h2{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(8, 8, 116);
+    font-style: oblique;
+}
+
+.principal{
+    display: flex;
+}
+
+.texto{
+    text-transform: lowercase;
+    border: none;
+    font-size: 25px;
+    color: rgb(8, 8, 116);
+    border-radius: 15px;
+    margin: 30px;
+    background-color: #fcf8ec;
+    opacity: 75%;
+}
+
+.texto:focus{outline: none;}
+.texto::placeholder {color: lightblue; font-style: oblique;}
+
+#mensaje{
+    background-image: url(/img/Logo.png);
+    background-repeat: no-repeat;
+    border: solid 2px;
+    border-color: rgb(8, 8, 116);
+    font-size: 25px;
+    color: rgb(8, 8, 116);
+    border-radius: 15px;
+    align-items: flex-end;
+    margin: 30px;
+    background-color: rgb(8, 8, 116);
+    color: #fcf8ec;
+}
+
+.encriptar{
+    background-color: rgb(8, 8, 116);
+    color: #fcf8ec;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.desencriptar{
+    background-color: #fcf8ec;
+    color: rgb(8, 8, 116);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgb(8, 8, 116);
+    opacity: 75%;
+}
+
+.botones{
+    margin: 100px;
+}
+
+.copiar{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fcf8ec;
+    border-color: rgb(8, 8, 116);
+    border-radius: 10px;
+    color: rgb(8, 8, 116);
+    opacity: 75%;
+}
+
+.copiar:hover{
+    background-color: lightblue;
+    border-color: yellow;
+    border-radius: 100px;
+}
+
+.desencriptar:hover{
+    background-color: lightblue;
+    border-color: yellow;
+    border-radius: 100px;
+}
+
+.encriptar:hover{
+    border-color: yellow;
+    border-radius: 100px;;
+}
+
+.pieDePagina{
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 236px;
+}
+
+.grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px, 0px;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+
+}
+
+.box h2{
+    color: rgb(8, 8, 116);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.box p{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.redes{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+.redes a:hover{
+    color: yellow;
+}
+
+.grupo2{
+    background-color: rgb(131, 204, 228);
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+}
+
+.grupo2 small{
+    font-size: 12px;
+    font-style: oblique;
+}
+
+@media screen and (max-width:800px) {
+    .pieDePagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px, 0px;
+    }
+}
