@@ -185,7 +185,7 @@ img{
 }
 
 @media screen and (max-width:800px) {
-    .pieDePagina .grupo1{
+    html{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
